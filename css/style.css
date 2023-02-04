@@ -1,0 +1,195 @@
+:root {
+--main-title-color: #FFFFFF;
+--second-title-color: #434455;
+--accent-color: #2E2F42;
+--pre-color: #F4F4FD;
+--after-color: #E7E9FC;
+--another-color: #4D5AE5;
+--alternative-color: #404BBF;
+}
+/* --------------------------body-------------------- */
+body {
+font-family: 'Roboto', sans-serif;
+color: var(--second-title-color) ;
+background-color: var(--main-title-color) ;
+font-size: 16px;
+}
+.link {text-decoration: none;}
+.list{list-style: none;}
+/* --------------------------header-------------------- */
+.logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-color);
+}
+.logo-two { 
+color: var(--another-color);
+}
+.header-list .header-link {
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+}
+.header-list .header-link:hover,
+.header-list .header-link:focus {color: var(--alternative-color)}
+.header-adress {
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+.header-adress-list, .header-adress-link {
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--second-title-color);
+}
+.header-adress-list, .header-adress-link:hover, :focus {color: var(--alternative-color);}
+/* --------------------------hero-------------------- */
+.hero {
+    background-color: var(--accent-color);
+}
+.hero-title {
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--main-title-color);
+}
+/* --------------------------button-------------------- */
+.btn { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border: none;
+    color: var(--another-color);
+    background-color: var(--pre-color);
+}
+.btn:hover, .btn:focus {background-color: var(--alternative-color) }
+.btn-style {
+    color: var(--main-title-color);
+    background-color: var(--another-color);}
+    .btn-style:hover, .btn-style:focus {background-color: var(--alternative-color);}
+/* --------------------------about-------------------- */
+.about {
+}
+.about-list {
+}
+.about-team-item { list-style-type:  none;
+}
+.about-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--accent-color);
+}
+.about-after-title {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
+}
+.about-item {
+}
+/* --------------------------work-------------------- */
+.work {
+}
+.work-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--accent-color);}
+.work-list {
+}
+.work-item {
+}
+/* --------------------------team-------------------- */
+.team{background-color: var(--pre-color);}
+.team-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--accent-color);
+}
+.team-listlist {
+}
+.team-item { list-style-type:  none;
+}
+.team-title-employee {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+}
+.team-after-title {
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
+}
+/* --------------------------footer-------------------- */
+.footer{background-color:var(--accent-color)}
+.footer-logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--pre-color); 
+}
+.footer-logo-two {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--another-color);
+}
+.footer-text { 
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--after-color);
+}
+/* -------------------------card-------------------- */
+.card-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+}
+.card-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
+}
+/* ------------------hidden----------------- */
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden; 
+}
