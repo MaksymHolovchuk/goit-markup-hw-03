@@ -165,7 +165,7 @@ margin-right: auto;
     margin-bottom: 72px;
  }
 
- .button-list .btn:not(:last-child) {
+ .button-list .button-item:not(:last-child) {
     margin-right: 24px;
  }
 
